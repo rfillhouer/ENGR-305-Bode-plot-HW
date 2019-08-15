@@ -1,0 +1,10 @@
+s  = tf('s')
+H1 = exp(-2*s)
+H2 = 1/(s + 1)
+
+bode(H1)
+hold
+bode(H2)
+
+% Note: when the figure window comes up, you can double- 
+% click the axes to change the limits and axis font size
